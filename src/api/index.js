@@ -42,7 +42,7 @@ export const fetchData = async (country) => {
 // }
 
 // Instead of Global, this fetches the daily data for the US
-export const fetchDailyData = async = () => {
+export const fetchDailyData = async () => {
     try {
         const { data } = await axios.get('https://api.covidtracking.com/v1/us/daily.json');
 
